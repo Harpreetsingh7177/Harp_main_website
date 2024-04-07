@@ -49,7 +49,7 @@ section{
 
 
 header{
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -73,10 +73,12 @@ header{
     /* margin-bottom: 5rem; */
 
 }
+
 /* ********************************************************/
 
-.header-search-container { position: relative;
-/* width: 60%; */
+.header-search-container { 
+    position: relative;
+width: 100%;
 }
 
 .header-search-container .search-field {
@@ -114,7 +116,7 @@ header{
      background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 50vh;
     width: 100%;
     display: flex;
     margin-top: 0.5rem;
@@ -426,7 +428,7 @@ header{
     flex-direction: row;
   }
   .hero_section{
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
 
   .hero_section p{
@@ -434,7 +436,7 @@ header{
   }
 
   .nav{
-    position: fixed;
+    /* position: fixed; */
     background-color: black;
   }
 

@@ -75,8 +75,7 @@ header{
 }
 
 .nav .logo{
-    width: 20%;
-    max-width: 70px;
+    width: 15%;
 }
 
 /* ********************************************************/
@@ -472,6 +471,10 @@ width: 100%;
   .contact_map{
     width: 60%;
   }
+
+  .nav .logo{
+    max-width: 60px;
+}
 
 
 }
